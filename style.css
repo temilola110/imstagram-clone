@@ -1,0 +1,330 @@
+ *{
+    margin: 5px 0px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    font-family: sans-serif
+ }
+
+ div{
+    display: block;
+ }
+ 
+ body{
+    display: flex;
+    justify-content: space-between; 
+    /* align-items: center; */
+    background-color: rgb(231, 231, 231);
+ }
+ 
+ .svg{ color: rgb(38, 38, 38);
+fill: rgb(38, 38, 38);
+height: 24;
+width: 24;
+display: flex;
+flex-direction: column;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+     position: fixed;
+    box-sizing: border-box;
+    width: 150px;
+    border: 3px rgb(70, 66, 66); 
+    background-color: rgb(253, 253, 253);
+    height: 1000px;
+   
+}
+
+
+
+
+
+ main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(231, 231, 231);
+    /* position: static; */
+   
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    column-gap: 40px;
+    padding: 0px 350px;
+}
+
+.div-one{
+    background-color: black;
+    display: flex;
+}
+
+.jarumas-image{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+}
+.comment-1{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+}
+
+.profile{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+}
+
+.flexrow{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 25px;
+    list-style-type: none;
+} 
+
+#icon-1{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: 100px;
+}
+
+.section-1-left{
+    position: relative;
+    background-color: black;
+}
+
+.section-3{
+    background-color: blue;
+
+}
+
+.images-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.posts{
+    border: 3px black;
+    border-radius: 30px;
+    /* margin: 16px 0px 0px; */
+    /* padding: 0px 500px;  */
+}
+
+.posts-list{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: stretch; */
+    row-gap: 100px;
+    list-style-type: none;
+    background-color:rgb(var(--ig-secondary-background));
+    width: 450px;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden
+    }
+
+    fieldset{
+        padding: 0px 300px;
+    }
+
+.timmy-image{
+    border: 2px solid white;
+    border-radius: 100px;
+    /* position: absolute; */
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+    /* letter-spacing: .01em;
+    max-width: 74px;
+    padding-left: 2px;
+    padding-right: 2px; */
+}
+.kassy-image{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+}
+.modella-image{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+}
+.wahab-image{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+}
+.deby-image{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+}
+.benita-image{
+     border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+}
+
+.temmys-image{
+    border: 2px solid white;
+    border-radius: 100px;
+    top: -5px;
+    left: -5px;
+    width: 66px;
+    height: 66px;
+}
+
+fieldset{
+    /* background: rgb(var(--ig-primary-background)); */
+    /* border: 1px solid rgb(var(--ig-elevated-separator)); */
+    border-radius: 8px;
+    
+}
+
+/* .xoxo{
+    box-sizing: border-box;
+    display: block;
+    max-width: 64px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+} */
+
+legend{
+    align-items: stretch;
+    border: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+    position: relative;
+    right: 100;
+    top: 0;
+    vertical-align: baseline;
+    /* visibility: hidden */
+}
+
+button{
+    text-decoration: none;
+}
+
+.section-3{
+    display:flex;
+    flex-direction: row;
+}
+
+.temmy-right{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-contaier{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 25px;
+}
+
+.jaruma-post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: blue; */
+    row-gap: 500px;
+    margin: auto;
+    border: 30px red;
+}
+
+.jaruma-img{
+    width: 550px;
+    height: 468px;
+}
+
+.comment-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background-color: blue; */
+    /* row-gap: 500px; */
+    margin: auto;
+    font-size: 14px;
+}
+.view time {
+    font-size: 5px;
+}
+
+.david-omment{
+    font-size: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+.div-one{
+    border: 30px red;
+    border-radius: 8px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.right-side .profile .profile-left .details .username {
+    padding-bottom: 3px;
+}
+
+.section-3{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+ 
